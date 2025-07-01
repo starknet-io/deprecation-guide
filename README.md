@@ -13,7 +13,7 @@ For additional questions and clarifications, please join our [Discord channel](h
 
 # What breaks in v0.14.0?
 
-In Starknet version 0.14.0 we will terminate support for transaction versions 0,1 and 2, meaning they will be rejected from the sequencer’s mempool (see [SNIP-16](https://github.com/starknet-io/SNIPs/blob/main/SNIPS/snip-16.md#motivation) for motivation).
+In Starknet version 0.14.0 we will terminate support for transaction versions 0, 1, 2 as well as v3 that are sent with RPC < 0.8. This means that they will be rejected from the sequencer’s gateway (see [SNIP-16](https://github.com/starknet-io/SNIPs/blob/main/SNIPS/snip-16.md#motivation) for motivation).
 
 # What should you do to maintain normal operation?
 
